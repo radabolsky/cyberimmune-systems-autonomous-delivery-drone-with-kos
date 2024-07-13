@@ -1,4 +1,4 @@
-
+version: '2.3'
 services:
 #################################################
 # cross-build-sim-online.sh SIMULATOR_IP SERVER_IP BOARD_ID

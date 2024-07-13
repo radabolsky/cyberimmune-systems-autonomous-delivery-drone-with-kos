@@ -6,6 +6,7 @@
 
 #define COMMAND_MAX_STRING_LEN 32
 
+
 uint32_t commandNum = 0;
 MissionCommand *commands = NULL;
 int hasMission = false;
@@ -198,4 +199,15 @@ void printMission() {
             break;
         }
     }
+}
+
+
+uint32_t getCommandNum()
+{
+    return commandNum;
+}
+
+MissionCommand* getCommands()
+{
+    return commands;
 }
